@@ -11,7 +11,7 @@ student (in any course), the teacher with the most students, or the easiest cour
 ** Docker
 
 ### Running the start up script
-_usage:_ python Startup.py <start|stop> <build>
+_usage:_ python Startup.py <start|stop> [build]
 - _start:_ (Default) Starts the docker container. If no docker image exists with the correct tag, automatically runs a
                        docker build
 - _stop:_ Stops and removes all running docker containers
